@@ -10,9 +10,53 @@ body {
 body {
   display: table;
 }
-.title {
+.text {
   color: #e8eddf;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
+
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation: fadein 2s;
+}
+
+.tap {
+  color: #e8eddf;
+  text-align: center;
+  display: table-footer-group;
+  vertical-align: middle;
+}
+
+.link {
+  color: #f5cb5c !important;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
