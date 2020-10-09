@@ -1,0 +1,18 @@
+html,
+body {
+  background-color: #242423;
+  font-family: "Josefin Sans", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+body {
+  display: table;
+}
+.title {
+  color: #e8eddf;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
