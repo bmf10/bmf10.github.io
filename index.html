@@ -10,6 +10,7 @@
     <title>Bima Febriansyah</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
+
   <body class="body">
     <div class="container" id="text0">
       <h1 class="text" id="first">Hello!!</h1>
@@ -73,91 +74,5 @@
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"
   ></script>
-  <script>
-    $(document).ready(function () {
-      var d = new Date();
-      var h = d.getHours();
-
-      if (h < 10 && h >= 5) {
-        $("#first").html("Hello,<br> Good Morning!");
-      } else if (h <= 15 && h >= 10) {
-        $("#first").html("Hello,<br> Good Afternoon!");
-      } else if (h <= 18 && h > 15) {
-        $("#first").html("Hello,<br> Good Evening!");
-      } else {
-        $("#first").html("Hello,<br> Good Night!");
-      }
-
-      if (h < 18 && h > 6) {
-        $(".body").css("background-color", "#E8EDDF");
-        $(".text").css("color", "#242423");
-      }
-
-      $("body").click(function () {
-        var c = parseInt($("#tap").val());
-
-        switch (c) {
-          case 0:
-            $("#text0").css("display", "none");
-            $("#text1").css("display", "inline");
-            break;
-          case 1:
-            $("#text1").css("display", "none");
-            $("#text2").css("display", "inline");
-            break;
-          case 2:
-            $("#text2").css("display", "none");
-            $("#text3").css("display", "inline");
-            break;
-          case 3:
-            $("#text3").css("display", "none");
-            $("#text4").css("display", "inline");
-            break;
-          case 4:
-            $("#text4").css("display", "none");
-            $("#text5").css("display", "inline");
-            break;
-          case 5:
-            $("#text5").css("display", "none");
-            $("#text6").css("display", "inline");
-            break;
-          case 6:
-            $("#text6").css("display", "none");
-            $("#text7").css("display", "inline");
-            break;
-          case 7:
-            $("#text7").css("display", "none");
-            $("#text8").css("display", "inline");
-            break;
-          case 8:
-            $("#text8").css("display", "none");
-            $("#text9").css("display", "inline");
-            break;
-          case 9:
-            $("#text9").css("display", "none");
-            $("#text10").css("display", "inline");
-            break;
-          case 10:
-            $("#text10").css("display", "none");
-            $("#text11").css("display", "inline");
-            break;
-          case 11:
-            $("#text11").css("display", "none");
-            $("#text12").css("display", "inline");
-            break;
-          case 12:
-            $("#text12").css("display", "none");
-            $("#text13").css("display", "inline");
-            break;
-          case 13:
-            window.close();
-            break;
-          default:
-            break;
-        }
-
-        $("#tap").val(c + 1);
-      });
-    });
-  </script>
+  <script src="./script.js"></script>
 </html>
