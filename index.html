@@ -7,34 +7,65 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
     <title>Bima Febriansyah</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="body">
-    <h1 class="text" id="text0">Hello!!!</h1>
-    <h1 class="text" id="text1">I'm Bima Febriansyah</h1>
-    <h1 class="text" id="text2">22 years old</h1>
-    <h1 class="text" id="text3">A Programmer</h1>
-    <h1 class="text" id="text4">PHP</h1>
-    <h1 class="text" id="text5">JavaScript</h1>
-    <h1 class="text" id="text6">And many more</h1>
-    <h1 class="text" id="text7">
-      <a class="link" href="https://wa.me/6289693943932" target="_blank"
-        >Click here</a
-      ><br />to contact me
-    </h1>
-    <h1 class="text" id="text8">Thank for visit</h1>
-    <h1 class="text" id="text9">See you</h1>
-    <h1 class="text" id="text10">
-      UDAH ABIS JANGAN DI TAP MULU PEGEL BUATNYA INI
-    </h1>
-    <h1 class="text" id="text11">NGEYEL BANGET SIH</h1>
-    <h1 class="text" id="text12">MASIH AJA DI TAP</h1>
-    <div class="text" id="text13">
-      <img src="./animate.gif" />
+    <div class="container" id="text0">
+      <h1 class="text" id="first">Hello!!</h1>
     </div>
-
-    <p class="tap">Tap to Continue</p>
+    <div class="container" id="text1" style="display: none">
+      <h1 class="text">I'm Bima Febriansyah</h1>
+      <img class="img" src="./two.svg" />
+    </div>
+    <div class="container" id="text2" style="display: none">
+      <h1 class="text">22 years old</h1>
+    </div>
+    <div class="container" id="text3" style="display: none">
+      <h1 class="text">A Programmer</h1>
+      <img class="img" src="./four.svg" />
+    </div>
+    <div class="container" id="text4" style="display: none">
+      <h1 class="text">PHP</h1>
+      <img class="img" src="./five.svg" />
+    </div>
+    <div class="container" id="text5" style="display: none">
+      <h1 class="text">JavaScript</h1>
+      <img class="img" src="./six.svg" />
+    </div>
+    <div class="container" id="text6" style="display: none">
+      <h1 class="text">And many more</h1>
+      <img class="img" src="./seven.svg" />
+    </div>
+    <div class="container" id="text7" style="display: none">
+      <h1 class="text">
+        <a class="link" href="https://wa.me/6289693943932" target="_blank"
+          >Click here</a
+        ><br />to contact me
+      </h1>
+      <img class="img" src="./eight.svg" />
+    </div>
+    <div class="container" id="text8" style="display: none">
+      <h1 class="text">Thank for visit</h1>
+      <img class="img" src="./nine.svg" />
+    </div>
+    <div class="container" id="text9" style="display: none">
+      <h1 class="text">See you</h1>
+      <img class="img" src="./ten.svg" />
+    </div>
+    <div class="container" id="text10" style="display: none">
+      <h1 class="text">UDAH ABIS JANGAN DI TAP MULU PEGEL BUATNYA INI</h1>
+    </div>
+    <div class="container" id="text11" style="display: none">
+      <h1 class="text">NGEYEL BANGET SIH</h1>
+    </div>
+    <div class="container" id="text12" style="display: none">
+      <h1 class="text">MASIH AJA DI TAP</h1>
+    </div>
+    <div class="container" id="text13" style="display: none">
+      <h1 class="text"><img src="./animate.gif" /></h1>
+    </div>
+    <p class="tap">Tap to continue</p>
     <input type="hidden" id="tap" value="0" />
   </body>
   <script
@@ -42,10 +73,91 @@
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"
   ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"
-  ></script>
-  <script src="./script.js"></script>
+  <script>
+    $(document).ready(function () {
+      var d = new Date();
+      var h = d.getHours();
+
+      if (h < 10 && h >= 5) {
+        $("#first").html("Hello,<br> Good Morning!");
+      } else if (h <= 15 && h >= 10) {
+        $("#first").html("Hello,<br> Good Afternoon!");
+      } else if (h <= 18 && h > 15) {
+        $("#first").html("Hello,<br> Good Evening!");
+      } else {
+        $("#first").html("Hello,<br> Good Night!");
+      }
+
+      if (h < 18 && h > 6) {
+        $(".body").css("background-color", "#E8EDDF");
+        $(".text").css("color", "#242423");
+      }
+
+      $("body").click(function () {
+        var c = parseInt($("#tap").val());
+
+        switch (c) {
+          case 0:
+            $("#text0").css("display", "none");
+            $("#text1").css("display", "inline");
+            break;
+          case 1:
+            $("#text1").css("display", "none");
+            $("#text2").css("display", "inline");
+            break;
+          case 2:
+            $("#text2").css("display", "none");
+            $("#text3").css("display", "inline");
+            break;
+          case 3:
+            $("#text3").css("display", "none");
+            $("#text4").css("display", "inline");
+            break;
+          case 4:
+            $("#text4").css("display", "none");
+            $("#text5").css("display", "inline");
+            break;
+          case 5:
+            $("#text5").css("display", "none");
+            $("#text6").css("display", "inline");
+            break;
+          case 6:
+            $("#text6").css("display", "none");
+            $("#text7").css("display", "inline");
+            break;
+          case 7:
+            $("#text7").css("display", "none");
+            $("#text8").css("display", "inline");
+            break;
+          case 8:
+            $("#text8").css("display", "none");
+            $("#text9").css("display", "inline");
+            break;
+          case 9:
+            $("#text9").css("display", "none");
+            $("#text10").css("display", "inline");
+            break;
+          case 10:
+            $("#text10").css("display", "none");
+            $("#text11").css("display", "inline");
+            break;
+          case 11:
+            $("#text11").css("display", "none");
+            $("#text12").css("display", "inline");
+            break;
+          case 12:
+            $("#text12").css("display", "none");
+            $("#text13").css("display", "inline");
+            break;
+          case 13:
+            window.close();
+            break;
+          default:
+            break;
+        }
+
+        $("#tap").val(c + 1);
+      });
+    });
+  </script>
 </html>
