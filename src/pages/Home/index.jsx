@@ -11,6 +11,7 @@ import Eight from "./Eight";
 import Tour from "reactour";
 import Nine from "./Nine";
 import Ten from "./Ten";
+import { useEffect } from "react";
 
 const Home = () => {
   const [section, setSection] = useState(1);
@@ -62,7 +63,7 @@ const Home = () => {
   const step = [
     {
       selector: '[data-tut="left"]',
-      content: `Tap here for back`,
+      content: `Tap here for previous`,
       position: [window.innerWidth / 4 - 100, window.innerHeight / 2 - 100],
     },
     {
@@ -75,9 +76,16 @@ const Home = () => {
     },
   ];
 
+  useEffect(() => {
+    const uniqueUser = localStorage.getItem("uniqueUser");
+    if (!uniqueUser === false) {
+      setOpen(false);
+    }
+  }, []);
+
   const reqClose = () => {
     setOpen(false);
-    localStorage.setItem("isTourOpen", true);
+    localStorage.setItem("uniqueUser", false);
   };
 
   return (

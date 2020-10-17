@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import Tour from "reactour";
 import "./style.css";
@@ -8,7 +9,12 @@ const Calculator = () => {
   const [on, setOn] = useState(false);
   const [open, setOpen] = useState(true);
 
-  console.log(value);
+  useEffect(() => {
+    const uniqueUser = localStorage.getItem("uniqueUserCalculator");
+    if (!uniqueUser === false) {
+      setOpen(false);
+    }
+  }, []);
 
   const handleClick = (e) => {
     const btnValue = e.target.value;
@@ -104,6 +110,11 @@ const Calculator = () => {
     },
   ];
 
+  const handleClose = () => {
+    setOpen(false);
+    localStorage.setItem("uniqueUserCalculator", false);
+  };
+
   return (
     <>
       <div className="container">
@@ -198,14 +209,16 @@ const Calculator = () => {
           </div>
         </div>
       </div>
-      <Tour
-        steps={step}
-        isOpen={open}
-        rounded={5}
-        disableDotsNavigation={false}
-        showNavigationNumber={false}
-        onRequestClose={() => setOpen(false)}
-      />
+      {open ? (
+        <Tour
+          steps={step}
+          isOpen={open}
+          rounded={5}
+          disableDotsNavigation={false}
+          showNavigationNumber={false}
+          onRequestClose={handleClose}
+        />
+      ) : undefined}
     </>
   );
 };
