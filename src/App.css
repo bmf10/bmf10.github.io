@@ -13,6 +13,7 @@
   color: white;
   padding: 0px 20px;
 }
+
 .img {
   max-width: 250px;
 }
@@ -52,6 +53,20 @@
   width: 50%;
   background-color: #fff;
   opacity: 0;
+}
+
+.btn-action {
+  border: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 20px;
+  background-color: #f5cb5c;
+  margin: 0px 10px;
+}
+
+.btn-action:hover {
+  background-color: #cfdbd5;
 }
 
 @-webkit-keyframes text-focus-in {

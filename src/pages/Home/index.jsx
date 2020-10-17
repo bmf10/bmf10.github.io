@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 import Default from "./Default";
 import First from "./One";
 import Seven from "./Seven";
@@ -74,11 +73,6 @@ const Home = () => {
         window.innerHeight / 2 - 100,
       ],
     },
-    {
-      selector: '[data-tut="middle"]',
-      content: `Please Enjoy`,
-      position: "center",
-    },
   ];
 
   const reqClose = () => {
@@ -89,9 +83,7 @@ const Home = () => {
   return (
     <>
       <div className="App" onClick={handleClick}>
-        <div className="App-header" data-tut="middle">
-          {view(section)}
-        </div>
+        <div className="App-header">{view(section)}</div>
       </div>
       {open ? (
         <>

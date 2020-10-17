@@ -1,6 +1,5 @@
 import img from "./img.svg";
 import React from "react";
-import "../App.css";
 
 const Default = () => {
   return (
