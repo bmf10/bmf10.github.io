@@ -12,12 +12,12 @@ const Header: FC = () => {
   return (
     <header style={{ height: height ? height : "100vh" }}>
       <div className="absolute bg-primary inset-0 z-0" />
-      <div className="h-full flex flex-col justify-center items-center relative z-10">
+      <div className="h-full flex flex-col justify-center items-center relative z-10 fade-in">
         <img src={Img} alt="profile" className="w-52 rounded-full mb-8" />
         <h1 className="font-cursive md:text-5xl text-3xl text-white transform -rotate-6">
           - Bima Febriansyah -
         </h1>
-        <h3 className="font-mono mt-8 text-white">Fullstack Developer</h3>
+        <h3 className="mt-8 text-white">Fullstack Developer</h3>
         <div className="flex flex-row mt-8">
           <a
             href="https://facebook.com/bmf1002"
