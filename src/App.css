@@ -2,8 +2,19 @@
   text-align: center;
 }
 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
 .App-header {
-  background-color: #242423;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,85 +22,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 0px 20px;
 }
 
-.img {
-  max-width: 250px;
+.App-link {
+  color: #61dafb;
 }
 
-.section {
-  line-height: 1.2;
-  -webkit-animation: text-focus-in 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53)
-    both;
-  animation: text-focus-in 0.8s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
-}
-
-.link {
-  color: #f5cb5c;
-}
-
-.motivation {
-  color: #f5cb5c;
-  font-style: italic;
-  font-weight: 700;
-}
-
-.left {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 100vh;
-  width: 50%;
-  background-color: #fff;
-  opacity: 0;
-}
-
-.right {
-  position: absolute;
-  top: 0;
-  right: 0;
-  min-height: 100vh;
-  width: 50%;
-  background-color: #fff;
-  opacity: 0;
-}
-
-.btn-action {
-  border: none;
-  width: 150px;
-  height: 30px;
-  border-radius: 20px;
-  font-size: 20px;
-  background-color: #f5cb5c;
-  margin: 0px 10px;
-}
-
-.btn-action:hover {
-  background-color: #cfdbd5;
-}
-
-@-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1;
-  }
-}
-@keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-    filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-    filter: blur(0px);
-    opacity: 1;
+  to {
+    transform: rotate(360deg);
   }
 }
