@@ -1,0 +1,12 @@
+{
+  "getStarted": "Get Started",
+  "fullName": "Full Name:",
+  "phone": "Phone:",
+  "email": "Email:",
+  "website": "Website:",
+  "address": "Address:",
+  "hello": "Hello There!",
+  "aboutMe": "About Me",
+  "about1": "I'm Bima Febriansyah, now I am 22 years old. I'm graduated from Universitas Bina Sarana Informatika Pontianak majoring in Information System. I have 1 years experience as a programmer.",
+  "about2": "A Fullstack Developer who has a strong passion for the world of programing and likes to learn new things. Experienced in working as a team as well as individually. Get used to creating Backends with Javascript (Express JS) and PHP (CodeIgniter and Laravel), and Frontend with ReactJs, React Native, or bootstraps."
+}

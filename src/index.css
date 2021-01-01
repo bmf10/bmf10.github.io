@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+.toggle-dot {
+  top: -0.25rem;
+  left: -0.25rem;
+  transition: all 0.3s ease-in-out;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg");
+  background-size: 43px;
+  background-repeat: no-repeat;
+}
+
+input:checked ~ .toggle-dot {
+  transform: translateX(100%);
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg");
+  background-size: 35px;
+  background-repeat: no-repeat;
+}
+
 .fade-in {
   -webkit-animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
@@ -11,6 +31,11 @@
   -webkit-animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
   animation: slide-in-bottom 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.color-change-2x {
+  -webkit-animation: color-change-2x 0.5s linear infinite alternate both;
+  animation: color-change-2x 0.5s linear infinite alternate both;
 }
 
 @-webkit-keyframes slide-in-bottom {
@@ -66,5 +91,22 @@
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1);
+  }
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #062639;
+  }
+  100% {
+    background: #e7301c;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #062639;
+  }
+  100% {
+    background: #e7301c;
   }
 }

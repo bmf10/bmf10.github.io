@@ -1,0 +1,12 @@
+{
+  "getStarted": "Mulai",
+  "fullName": "Nama:",
+  "phone": "Telepon:",
+  "email": "Email:",
+  "website": "Website:",
+  "address": "Alamat:",
+  "hello": "Hallo!",
+  "aboutMe": "Tentang Saya",
+  "about1": "Aku Bima Febriansyah, sekarang saya berumur 22 tahun. Saya lulus dari Universitas Bina Sarana Informatika Pontianak jurusan Sistem Informasi. Saya mempunyai 1 tahun pengalaman sebagai seorang programmer",
+  "about2": "Seorang Fullstack Developer yang memiliki passion kuat pada dunia programing dan suka belajar hal-hal baru. Berpengalaman bekerja secara tim maupun individual. Terbiasa membuat Backend dengan Javascript (Express JS) maupun PHP (CodeIgniter dan Laravel), dan Frontend dengan ReactJs, React Native, maupun Bootstrap."
+}

@@ -16,7 +16,14 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      primary: "rgba(255, 144, 0, 0.9)",
+      primary: "#062639",
+      textPrimary: "#C6D8C3",
+      secondary: "#e7301c",
+      textSecondary: "#f3eee6",
+      niceOne: "#edf4ea",
+      textNiceOne: "#082a41",
+      niceTwo: "#c9d4c5",
+      textNiceTwo: "#667a5f",
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -917,7 +924,11 @@ module.exports = {
   plugins: [
     plugin(function ({ addBase, theme }) {
       addBase({
-        body: { fontFamily: theme("fontFamily.mono") },
+        body: {
+          fontFamily: theme("fontFamily.mono"),
+          backgroundColor: theme("colors.niceOne"),
+          textColor: theme("colors.textNiceOne"),
+        },
       });
     }),
   ],
