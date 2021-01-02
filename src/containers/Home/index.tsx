@@ -7,7 +7,7 @@ import Tour, { ReactourStep } from "reactour";
 const Home: FC = () => {
   const [lang, setLang] = useState<boolean>(false);
   const ref = useRef<HTMLDivElement>(null);
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [open, setOpen] = useState(true);
 
   const onStarted = () => ref.current!.scrollIntoView();
@@ -41,8 +41,8 @@ const Home: FC = () => {
         prevButton={<div />}
         nextButton={<div />}
         lastStepNextButton={
-          <button className="bg-primary text-textPrimary border rounded-md py-2 px-4 -ml-2">
-            I see!
+          <button className="bg-primary text-textPrimary border rounded-md py-2 px-4">
+            {t("closeGuide")}
           </button>
         }
       />
