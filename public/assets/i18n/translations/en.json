@@ -9,5 +9,21 @@
   "aboutMe": "About Me",
   "about1": "I'm Bima Febriansyah, now I am 22 years old. I'm graduated from Universitas Bina Sarana Informatika Pontianak majoring in Information System. I have 1 years experience as a programmer.",
   "about2": "A Fullstack Developer who has a strong passion for the world of programing and likes to learn new things. Experienced in working as a team as well as individually. Get used to creating Backends with Javascript (Express JS) and PHP (CodeIgniter and Laravel), and Frontend with ReactJs, React Native, or Bootstraps.",
-  "closeGuide": "I see!"
+  "closeGuide": "I see!",
+  "myResume": "My Resume",
+  "workExp": "Work Experience",
+  "exp1Date": "Breef Studio - Maret 2020 - Current",
+  "exp1Job": "Create a Rest Api, implementing design to the website, and find/fix bugs",
+  "exp2Date": "Bio Medika - November 2020 - December 2020",
+  "exp2Job": "Make home service feature, such as cashier and print receipt with thermal bluetooth printer",
+  "exp3Date": "idekite.id - October 2019 - November 2019",
+  "exp3Job": "Create an entry and exit goods logging system with barcodes using Laravel",
+  "exp4Date": "Persona Optima Indonesia - August 2019 - September 2019",
+  "exp4Job": "Create a Company Web and its content management system with CodeIgniter",
+  "education": "Education",
+  "edu1Date": "Arkademy - December 2019 - January 2020",
+  "edu1Desc": "Learn about creating Rest APIs with Express JS, creating mobile apps with React Native, and Firebase",
+  "edu2Title": "Diploma 3 of Information System",
+  "edu2Date": "Univeristas Bina Sarana Informatika - 2016 - 2019",
+  "edu2Desc": "Completing Diploma 3 with a GPA of 3.80 and Create a final task with the title \"Web-Based Driving Course Information System On CV.Mitra Utama Mengemudi\""
 }
