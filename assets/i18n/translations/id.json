@@ -9,5 +9,21 @@
   "aboutMe": "Tentang Saya",
   "about1": "Saya Bima Febriansyah, sekarang saya berumur 22 tahun. Saya lulus dari Universitas Bina Sarana Informatika Pontianak jurusan Sistem Informasi. Saya mempunyai 1 tahun pengalaman sebagai seorang programmer",
   "about2": "Seorang Fullstack Developer yang memiliki passion kuat pada dunia programing dan suka belajar hal-hal baru. Berpengalaman bekerja secara tim maupun individual. Terbiasa membuat Backend dengan Javascript (Express JS) maupun PHP (CodeIgniter dan Laravel), dan Frontend dengan ReactJs, React Native, maupun Bootstrap.",
-  "closeGuide": "Saya mengerti!"
+  "closeGuide": "Saya mengerti!",
+  "myResume": "Resume Saya",
+  "workExp": "Pengalaman Kerja",
+  "exp1Date": "Breef Studio - Maret 2020 - Sekarang",
+  "exp1Job": "Membuat Rest API, mengimplentasikan desain ke website, dan mencari/memperbaiki bug",
+  "exp2Date": "Bio Medika - November 2020 - Desember 2020",
+  "exp2Job": "Membuat fitur home service semacam kasir dan cetak struk dengan printer thermal bluetooth",
+  "exp3Date": "idekite.id - Oktober 2019 - November 2019",
+  "exp3Job": "Membuat sistem pecatatan barang masuk dan keluar dengan barcode menggunakan Laravel",
+  "exp4Date": "Persona Optima Indonesia - Agustus 2019 - September 2019",
+  "exp4Job": "Membuat Web Perusahaan beserta konten manajemen sistemnya dengan CodeIgniter",
+  "education": "Pendidikan",
+  "edu1Date": "Arkademy - Desember 2019 - Januari 2020",
+  "edu1Desc": "Mempelajari pembuatan Rest API dengan Express JS, pembuatan mobile apps dengan React Native, dan Firebase",
+  "edu2Title": "Diploma 3 Sistem Informasi",
+  "edu2Date": "Univeristas Bina Sarana Informatika - 2016 - 2019",
+  "edu2Desc": "Menyelesaikan Program Diploma 3 dengan IPK 3.80 dan Membuat tugas akhir dengan judul \"Sistem Informasi Kursus Mengemudi Berbasis Web Pada CV.Mitra Utama Mengemudi\""
 }
