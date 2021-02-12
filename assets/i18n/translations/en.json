@@ -30,5 +30,6 @@
   "serviList1Desc": "Create REST API with Express JS or PHP with MySQL or PostgreSQL database",
   "serviList2Desc": "Implementing from design ui into web with React JS or JQuery",
   "serviList3Desc": "Managing and organizing database SQL (MySQL or PostgreSQL)",
-  "serviList4Desc": "Create webiste, modifiying functions, and plugin"
+  "serviList4Desc": "Create webiste, modifiying functions, and plugin",
+  "skillTitle": "Skills"
 }
