@@ -25,5 +25,10 @@
   "edu1Desc": "Mempelajari pembuatan Rest API dengan Express JS, pembuatan mobile apps dengan React Native, dan Firebase",
   "edu2Title": "Diploma 3 Sistem Informasi",
   "edu2Date": "Univeristas Bina Sarana Informatika - 2016 - 2019",
-  "edu2Desc": "Menyelesaikan Program Diploma 3 dengan IPK 3.80 dan Membuat tugas akhir dengan judul \"Sistem Informasi Kursus Mengemudi Berbasis Web Pada CV.Mitra Utama Mengemudi\""
+  "edu2Desc": "Menyelesaikan Program Diploma 3 dengan IPK 3.80 dan Membuat tugas akhir dengan judul \"Sistem Informasi Kursus Mengemudi Berbasis Web Pada CV.Mitra Utama Mengemudi\"",
+  "serviceTitle": "Service Saya",
+  "serviList1Desc": "Membuat REST API dengan Express JS atau PHP dengan database MySQL atau PostgreSQL",
+  "serviList2Desc": "Mengimplementasikan desain ui ke web dengan React JS atau JQuery",
+  "serviList3Desc": "Mengelola dan mengatur database SQL (MySQL or PostgreSQL)",
+  "serviList4Desc": "Membuat website, memodifikasi fungsi, dan plugin"
 }

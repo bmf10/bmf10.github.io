@@ -12,7 +12,7 @@
   "closeGuide": "I see!",
   "myResume": "My Resume",
   "workExp": "Work Experience",
-  "exp1Date": "Breef Studio - Maret 2020 - Current",
+  "exp1Date": "Breef Studio - March 2020 - Current",
   "exp1Job": "Create a Rest Api, implementing design to the website, and find/fix bugs",
   "exp2Date": "Bio Medika - November 2020 - December 2020",
   "exp2Job": "Make home service feature, such as cashier and print receipt with thermal bluetooth printer",
@@ -25,5 +25,10 @@
   "edu1Desc": "Learn about creating Rest APIs with Express JS, creating mobile apps with React Native, and Firebase",
   "edu2Title": "Diploma 3 of Information System",
   "edu2Date": "Univeristas Bina Sarana Informatika - 2016 - 2019",
-  "edu2Desc": "Completing Diploma 3 with a GPA of 3.80 and Create a final task with the title \"Web-Based Driving Course Information System On CV.Mitra Utama Mengemudi\""
+  "edu2Desc": "Completing Diploma 3 with a GPA of 3.80 and Create a final task with the title \"Web-Based Driving Course Information System On CV.Mitra Utama Mengemudi\"",
+  "serviceTitle": "My Service",
+  "serviList1Desc": "Create REST API with Express JS or PHP with MySQL or PostgreSQL database",
+  "serviList2Desc": "Implementing from design ui into web with React JS or JQuery",
+  "serviList3Desc": "Managing and organizing database SQL (MySQL or PostgreSQL)",
+  "serviList4Desc": "Create webiste, modifiying functions, and plugin"
 }
