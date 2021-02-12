@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import Tour, { ReactourStep } from "reactour";
 import MyResume from "./MyResume";
 import Service from "./Service";
+import Skills from "./Skills";
 
 const Home: FC = () => {
   const [lang, setLang] = useState<boolean>(false);
@@ -68,6 +69,7 @@ const Home: FC = () => {
       <AboutMe ref={ref} />
       <MyResume />
       <Service />
+      <Skills />
     </Fragment>
   );
 };

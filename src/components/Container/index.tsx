@@ -7,7 +7,7 @@ export interface Props {
 
 const Container: FC<Props> = ({ children, className }: Props) => (
   <div
-    className={`${className} container mx-auto py-24 max-w-6xl px-4 lg:px-0`}
+    className={`${className} container mx-auto py-24 max-w-6xl px-4 lg:px-4`}
   >
     {children}
   </div>

@@ -30,5 +30,6 @@
   "serviList1Desc": "Membuat REST API dengan Express JS atau PHP dengan database MySQL atau PostgreSQL",
   "serviList2Desc": "Mengimplementasikan desain ui ke web dengan React JS atau JQuery",
   "serviList3Desc": "Mengelola dan mengatur database SQL (MySQL or PostgreSQL)",
-  "serviList4Desc": "Membuat website, memodifikasi fungsi, dan plugin"
+  "serviList4Desc": "Membuat website, memodifikasi fungsi, dan plugin",
+  "skillTitle": "Skill"
 }
