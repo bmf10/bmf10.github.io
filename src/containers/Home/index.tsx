@@ -4,6 +4,7 @@ import AboutMe from "./AboutMe";
 import { useTranslation } from "react-i18next";
 import Tour, { ReactourStep } from "reactour";
 import MyResume from "./MyResume";
+import Service from "./Service";
 
 const Home: FC = () => {
   const [lang, setLang] = useState<boolean>(false);
@@ -66,6 +67,7 @@ const Home: FC = () => {
       <Header onClickButton={onStarted} />
       <AboutMe ref={ref} />
       <MyResume />
+      <Service />
     </Fragment>
   );
 };

@@ -7,9 +7,7 @@ export interface Props {
 
 const Header: FC<Props> = ({ children, className }: Props) => {
   return (
-    <h2 className={`text-center text-5xl mb-2 text-textNiceOne ${className}`}>
-      {children}
-    </h2>
+    <h2 className={` ${className} text-center text-5xl mb-2`}>{children}</h2>
   );
 };
 

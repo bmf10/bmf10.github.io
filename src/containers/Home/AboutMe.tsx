@@ -9,7 +9,7 @@ const AboutMe = forwardRef<HTMLDivElement>((_, ref) => {
   return (
     <div ref={ref}>
       <Container>
-        <Header>{t("aboutMe")}</Header>
+        <Header className="text-textNiceOne">{t("aboutMe")}</Header>
         <div className="grid lg:grid-cols-9 mt-28 lg:gap-5 xl:gap-5">
           <div className="lg:col-span-3 lg:px-4">
             <ul className="w-full">

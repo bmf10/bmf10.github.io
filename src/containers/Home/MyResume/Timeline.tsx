@@ -25,7 +25,7 @@ const TimeLine: FC<Props> = ({ icon, subtitle, text, title, align }: Props) => {
 
   return (
     <div
-      className={`my-8 flex justify-between items-center w-full left-timeline ${
+      className={`my-4 flex justify-between items-center w-full left-timeline ${
         alignState === "left" ? "flex-row-reverse" : ""
       }`}
     >
