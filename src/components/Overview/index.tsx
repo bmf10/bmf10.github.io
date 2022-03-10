@@ -1,4 +1,4 @@
-import { FC } from "react"
+import { FC, useState } from "react"
 import Wrapper from "components/Wrapper"
 import { Col, Descriptions, Divider, Row, Typography } from "antd"
 import {
@@ -15,11 +15,21 @@ interface Props {
 }
 
 const Overview: FC<Props> = ({ onNext }: Props) => {
+  const [showPhone, setShowPhone] = useState<boolean>(false)
+
+  const handlePhone = () => {
+    setShowPhone(!showPhone)
+  }
+
   return (
     <Wrapper>
       <TopText level={3} mark>
         <Typist
-          sentences={["Hi There!", "Nice to e-meet you"]}
+          sentences={[
+            "Hi There!",
+            "Nice to e-meet you",
+            "By the way, I'm looking for side job",
+          ]}
           pauseTime={3000}
           loop
         />
@@ -47,7 +57,13 @@ const Overview: FC<Props> = ({ onNext }: Props) => {
           <Divider />
           <MyDescription column={1} title="Contact Me" layout="horizontal">
             <Descriptions.Item label="Phone">
-              <a href="tel:+6289693943932">+62 896 939 439 32</a>
+              <a
+                href="tel:+6289693943932"
+                onMouseOver={handlePhone}
+                onMouseOut={handlePhone}
+              >
+                {showPhone ? "+62 896 939 439 32" : "+62 896 *** *** **"}
+              </a>
             </Descriptions.Item>
             <Descriptions.Item label="Email">
               <a href="mailto:bimafebriansyah1002@gmail.com">

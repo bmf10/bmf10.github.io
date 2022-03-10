@@ -7,6 +7,7 @@ import Typist from "react-text-typist"
 import { CarouselRef } from "antd/lib/carousel"
 import Experience from "components/Experience"
 import NavigationButton from "components/NavigationButton"
+import ReactGA from "react-ga"
 
 const Carousel: FC = () => {
   const slickRef = useRef<CarouselRef>(null)
@@ -15,18 +16,40 @@ const Carousel: FC = () => {
     lazyLoad: "ondemand",
     dots: true,
     infinite: false,
+    onSwipe: (dir) => {
+      ReactGA.event({
+        action: `Swipe ${dir}`,
+        category: "Carousel",
+        label: "SWIPE",
+      })
+    },
+  }
+
+  const handleNext = () => {
+    slickRef.current?.next()
+    ReactGA.event({
+      action: "Next",
+      category: "Carousel",
+      label: "SWIPE",
+    })
+  }
+
+  const handlePrev = () => {
+    slickRef.current?.prev()
+    ReactGA.event({
+      action: "Prev",
+      category: "Carousel",
+      label: "SWIPE",
+    })
   }
 
   return (
     <Slick {...settings} ref={slickRef}>
       <div>
-        <Overview onNext={() => slickRef.current?.next()} />
+        <Overview onNext={handleNext} />
       </div>
       <div>
-        <Experience
-          onNext={() => slickRef.current?.next()}
-          onPrev={() => slickRef.current?.prev()}
-        />
+        <Experience onNext={handleNext} onPrev={handlePrev} />
       </div>
       <div>
         <Wrapper>
@@ -46,7 +69,7 @@ const Carousel: FC = () => {
           </Typography.Title>
           <NavigationButton
             state="prev"
-            onClick={() => slickRef.current?.prev()}
+            onClick={handlePrev}
             tooltipText="My Experience"
           />
         </Wrapper>
