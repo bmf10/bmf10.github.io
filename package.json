@@ -1,70 +1,39 @@
 {
-  "name": "personal-website",
-  "version": "0.1.0",
+  "name": "bmf10.github.io",
+  "version": "1.0.0",
   "private": true,
-  "homepage": "https://bmf10.github.io/",
-  "dependencies": {
-    "@ant-design/icons": "^4.7.0",
-    "@craco/craco": "^6.4.3",
-    "@types/styled-components": "^5.1.23",
-    "antd": "^4.18.8",
-    "craco-less": "^2.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-ga": "^3.3.0",
-    "react-scripts": "5.0.0",
-    "react-text-typist": "^1.0.9",
-    "styled-components": "^5.3.3",
-    "typescript": "^4.5.5",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "prettify": "prettier --write",
-    "lint:fix": "eslint --fix"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "touch out/.nojekyll && gh-pages -d out -t true"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "@types/node": "20.5.6",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "clsx": "^2.0.0",
+    "eslint": "8.47.0",
+    "eslint-config-next": "13.4.19",
+    "framer-motion": "^10.16.4",
+    "next": "13.4.19",
+    "postcss": "8.4.28",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.49.0",
+    "react-hot-toast": "^2.4.1",
+    "react-intersection-observer": "^9.5.2",
+    "react-type-animation": "^3.1.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.3",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.0",
-    "@types/node": "^16.11.25",
-    "@types/react": "^17.0.39",
-    "@types/react-dom": "^17.0.11",
-    "eslint-config-prettier": "^8.4.0",
-    "eslint-config-react-app": "^7.0.0",
-    "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-flowtype": "^8.0.3",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prefer-arrow": "^1.2.3",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.2",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "gh-pages": "^3.2.3",
-    "prettier": "^2.3.1"
+    "gh-pages": "^6.0.0",
+    "prettier": "^3.0.2"
   }
 }

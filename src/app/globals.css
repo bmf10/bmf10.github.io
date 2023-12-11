@@ -1,0 +1,340 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #000;
+  --background: #fff;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+a {
+  color: rgb(25, 167, 206);
+}
+
+.background-hero {
+  background: rgb(25, 167, 206);
+  background: radial-gradient(
+    circle,
+    rgba(25, 167, 206, 1) 0%,
+    rgba(255, 255, 255, 1) 60%
+  );
+}
+
+.image-size {
+  width: 40px;
+  opacity: 0;
+}
+
+.codeigniter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.codeigniter-move {
+  left: 275px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.express {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.express-move {
+  right: 275px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.firebase {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.firebase-move {
+  top: -300px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.laravel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.laravel-move {
+  top: -200px;
+  left: 200px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.mysql {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.mysql-move {
+  top: -110px;
+  left: 275px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.next-move {
+  top: 225px;
+  right: -225px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.php {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.php-move {
+  top: 225px;
+  left: -225px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.react {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.react-move {
+  bottom: -310px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.sass {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.sass-move {
+  bottom: 275px;
+  left: 125px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.tailwind {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.tailwind-move {
+  bottom: 275px;
+  left: -125px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.typescript {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.typescript-move {
+  bottom: -300px;
+  left: -125px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.wordpress {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.wordpress-move {
+  bottom: -300px;
+  left: 125px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.javascript {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.javascript-move {
+  top: -200px;
+  right: 200px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.bootstrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.bootstrap-move {
+  top: 100px;
+  left: -275px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.postgre {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.postgre-move {
+  top: 110px;
+  left: 275px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+.jquery {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transition: all 0.6s linear;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.jquery-move {
+  top: -100px;
+  left: -275px;
+  transform: rotate(90deg);
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+
+@-webkit-keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-900deg) scale(0);
+    transform: rotate(-900deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-900deg) scale(0);
+    transform: rotate(-900deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}

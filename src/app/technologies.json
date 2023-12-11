@@ -1,0 +1,98 @@
+[
+    {
+        "src": "/tech/codeigniter.svg",
+        "alt": "codeigniter",
+        "className": "image-size codeigniter",
+        "classNameShow": "codeigniter-move"
+    },
+    {
+        "src": "/tech/express.svg",
+        "alt": "express",
+        "className": "image-size express",
+        "classNameShow": "express-move"
+    },
+    {
+        "src": "/tech/firebase.png",
+        "alt": "firebase",
+        "className": "image-size firebase",
+        "classNameShow": "firebase-move"
+    },
+    {
+        "src": "/tech/laravel.svg",
+        "alt": "laravel",
+        "className": "image-size laravel",
+        "classNameShow": "laravel-move"
+    },
+    {
+        "src": "/tech/mysql.svg",
+        "alt": "mysql",
+        "className": "image-size mysql",
+        "classNameShow": "mysql-move"
+    },
+    {
+        "src": "/tech/next.png",
+        "alt": "next",
+        "className": "image-size next",
+        "classNameShow": "next-move"
+    },
+    {
+        "src": "/tech/php.svg",
+        "alt": "php",
+        "className": "image-size php",
+        "classNameShow": "php-move"
+    },
+    {
+        "src": "/tech/react.svg",
+        "alt": "react",
+        "className": "image-size react",
+        "classNameShow": "react-move"
+    },
+    {
+        "src": "/tech/sass.svg",
+        "alt": "sass",
+        "className": "image-size sass",
+        "classNameShow": "sass-move"
+    },
+    {
+        "src": "/tech/tailwind.svg",
+        "alt": "tailwind",
+        "className": "image-size tailwind",
+        "classNameShow": "tailwind-move"
+    },
+    {
+        "src": "/tech/typescript.svg",
+        "alt": "typescript",
+        "className": "image-size typescript",
+        "classNameShow": "typescript-move"
+    },
+    {
+        "src": "/tech/wordpress.png",
+        "alt": "wordpress",
+        "className": "image-size wordpress",
+        "classNameShow": "wordpress-move"
+    },
+    {
+        "src": "/tech/javascript.svg",
+        "alt": "javascipt",
+        "className": "image-size javascript",
+        "classNameShow": "javascript-move"
+    },
+    {
+        "src": "/tech/bootstrap.svg",
+        "alt": "bootstrap",
+        "className": "image-size bootstrap",
+        "classNameShow": "bootstrap-move"
+    },
+    {
+        "src": "/tech/postgree.svg",
+        "alt": "postgre",
+        "className": "image-size postgre",
+        "classNameShow": "postgre-move"
+    },
+    {
+        "src": "/tech/jquery.png",
+        "alt": "jquery",
+        "className": "image-size jquery",
+        "classNameShow": "jquery-move"
+    }
+]

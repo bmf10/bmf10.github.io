@@ -1,0 +1,118 @@
+[
+    {
+        "title": "SmartCart",
+        "description": "E-Commerce website for selling ITC (International Test Center) products, with features such as Product List, Add to Cart, Checkout, Payment Gateway, etc. Supports multiple languages and login/register with Google",
+        "technologies": [
+            "React",
+            "Next JS",
+            "Javascript",
+            "Redux",
+            "styled-component",
+            "Ant Design"
+        ],
+        "link": "https://smartcart.id/",
+        "etc": "",
+        "image": "https://ik.imagekit.io/bmf10/img%20(1).png?updatedAt=1699170007074"
+    },
+    {
+        "title": "Chat Feature",
+        "description": "A chat feature has been implemented for tournament participants, facilitating direct communication on the platform and obviating the need to utilize an external application.",
+        "technologies": [
+            "React",
+            "Next JS",
+            "Javascript",
+            "Redux",
+            "Redux Thunk",
+            "SASS",
+            "Firebase Firestore"
+        ],
+        "link": "https://metaco.gg",
+        "etc": "Associated with Metaco GG",
+        "image": "https://ik.imagekit.io/bmf10/img%20(13).png?updatedAt=1699172154719"
+    },
+    {
+        "title": "Metaco Esport Network",
+        "description": "Metaco Esport Network is a website for event organizers to host tournaments and access new users. Our platform streamlines the process for organizers and participants.",
+        "technologies": [
+            "React",
+            "Next JS",
+            "Javascript",
+            "Redux",
+            "Redux Thunk",
+            "styled-component",
+            "Ant Design"
+        ],
+        "link": "https://metaco.gg",
+        "etc": "Associated with Metaco GG",
+        "image": "https://ik.imagekit.io/bmf10/img%20(14).png?updatedAt=1699172155125"
+    },
+    {
+        "title": "PVP Tic Tac Toe",
+        "description": "PVP Tic Tac Toe with real-time action, built to challenge myself using other real-time technologies, I usually use firebase",
+        "technologies": [
+            "TypeScript",
+            "Next JS",
+            "Tailwind CSS",
+            "MongoDB",
+            "Socket.io"
+        ],
+        "link": "https://github.com/bmf10/PvP-Online-Tic-Tac-Toe",
+        "etc": "",
+        "image": "https://ik.imagekit.io/bmf10/img%20(9).png?updatedAt=1699172154448"
+    },
+    {
+        "title": "ASD Bakrie",
+        "description": "A cutting-edge e-commerce app for palm oil commodities has been developed, providing farmers with access to high-quality seeds and seamless transactions through Midtrans payment gateway integration. Available in two languages, it’s accessible to a wider audience.",
+        "technologies": [
+            "React",
+            "Next JS",
+            "React Native",
+            "Javascript",
+            "Redux",
+            "Redux Saga",
+            "styled-component",
+            "Ant Design",
+            "Express JS",
+            "Postgre SQL"
+        ],
+        "link": "https://www.asd-bakrie.com/en",
+        "etc": "Associated with Breef Studio",
+        "image": "https://ik.imagekit.io/bmf10/img%20(15).png?updatedAt=1699172156005"
+    },
+    {
+        "title": "Lokakain",
+        "description": "An e-commerce app for fabrics has been developed, offering a wide variety of fabrics and allowing offline stores to join as partners. The website is integrated with the secure Midtrans payment gateway for easy transactions.",
+        "technologies": [
+            "React",
+            "Next JS",
+            "React Native",
+            "Javascript",
+            "Redux",
+            "Redux Saga",
+            "Material UI",
+            "Express JS",
+            "Postgre SQL"
+        ],
+        "link": "https://www.asd-bakrie.com/en",
+        "etc": "Associated with Breef Studio",
+        "image": "https://ik.imagekit.io/bmf10/img%20(16).png?updatedAt=1699172155649"
+    },
+    {
+        "title": "Badiklat PMI",
+        "description": "A dynamic certification website for society, especially PMI employees, has been created with engaging and challenging question types.",
+        "technologies": [
+            "React",
+            "Next JS",
+            "React Native",
+            "Javascript",
+            "Redux",
+            "Redux Saga",
+            "Material UI",
+            "Express JS",
+            "Postgre SQL"
+        ],
+        "link": null,
+        "etc": "Associated with Breef Studio",
+        "image": "https://ik.imagekit.io/bmf10/img%20(11).png?updatedAt=1699172155931"
+    }
+]
