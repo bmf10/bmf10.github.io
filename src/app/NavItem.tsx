@@ -7,9 +7,10 @@ interface Props {
   menu: Menu;
   onRender: (renderValue: Menu) => void;
   onClick: () => void;
+  className?: string;
 }
 
-const NavItem: FC<Props> = ({ menu, onRender, onClick }) => {
+const NavItem: FC<Props> = ({ menu, onRender, onClick, className }) => {
   const [, width] = useWindowSize();
   const ref = useRef<HTMLAnchorElement | null>(null);
 
@@ -27,9 +28,7 @@ const NavItem: FC<Props> = ({ menu, onRender, onClick }) => {
   return (
     <a
       href={menu.link}
-      className={clsx("z-10 hover:text-cyan-500", {
-        "text-white hover:text-white": menu.active,
-      })}
+      className={clsx("z-10 text-white hover:text-white", className)}
       ref={ref}
       onClick={onClick}
     >

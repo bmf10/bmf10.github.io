@@ -1,5 +1,5 @@
 import { ForwardRefRenderFunction, forwardRef, useMemo, useState } from "react";
-import Portfilios from "../portfolios.json";
+import Portfilios from "./portfolios.json";
 import Card from "./Card";
 
 const Work: ForwardRefRenderFunction<HTMLElement, unknown> = (_props, ref) => {
