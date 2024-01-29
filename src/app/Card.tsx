@@ -50,14 +50,14 @@ const Card: FC<Props> = ({ data }) => {
             {data.technologies.map((v) => `${v}, `)}
           </p>
         </div>
-        {data.link && (
-          <a
-            href={data.link}
-            target="_blank"
-            className="absolute left-0 top-0 w-full h-full"
-          />
-        )}
       </Slide>
+      {data.link && (
+        <a
+          href={data.link}
+          target="_blank"
+          className="absolute left-0 top-0 w-full h-full"
+        />
+      )}
     </div>
   );
 };

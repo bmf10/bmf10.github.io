@@ -51,7 +51,7 @@ const Work: ForwardRefRenderFunction<HTMLElement, unknown> = (_props, ref) => {
       {!showAll && (
         <button
           onClick={() => setShowAll(true)}
-          className="px-5 py-2 border-2 border-[#333437] rounded-full"
+          className="mt-4 px-5 py-2 border-2 border-[#333437] rounded-full"
         >
           Load More...
         </button>
